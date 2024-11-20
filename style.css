@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: rgb(207, 157, 95);
+  }
+  
+  .header {
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .section {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 800px;
+  }
+  
+  .section h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .actors ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .actors ul li {
+    margin: 0.5rem 0;
+  }
+  
+  .actors-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    border-radius: 10px;
+  }
+  .poster-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    border-radius: 10px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  @media (max-width: 600px) {
+    .header h1 {
+      font-size: 1.8rem;
+    }
+  
+    .section {
+      padding: 0.5rem;
+    }
+  
+    .poster-image {
+      max-width: 100%;
+    }
+  }
+  
